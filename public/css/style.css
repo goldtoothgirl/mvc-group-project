@@ -47,3 +47,16 @@ span{
     font-size: xx-large
 }
 
+<<<<<<< HEAD
+=======
+
+input {
+  color: rgb(255, 255, 255);
+}
+
+span.date{
+    color: aquamarine;
+    font-size:small
+
+}
+>>>>>>> aa6c36bbe6f2689401a2134ca6e8d70083bed0d2
