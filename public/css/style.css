@@ -1,6 +1,35 @@
+/************Do we want a reset here? *****/
+
+body{
+    font-size: 62.5%;
+}
+
 h1{
     color: rgb(255, 255, 255);
+    font-size: 3rem;
+
 }
+
+form {
+    /* This bit sets up the horizontal layout */
+    display:flex;
+    flex-direction:row;
+    
+    /* This bit draws the box around it */
+    /*border:1px solid grey;*/
+  
+    /* I've used padding so you can see the edges of the elements. */
+    padding: 10px;
+  }
+  
+  input {
+    /* Tell the input to use all the available space */
+    flex-grow:2;
+    /* And hide the input's outline, so the form looks like the outline */
+    border:none;
+  }
+
+
 .completed{
     text-decoration: line-through;
     color: gray;
@@ -17,3 +46,4 @@ span{
     color: aquamarine;
     font-size: xx-large
 }
+
